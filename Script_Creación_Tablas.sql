@@ -1,7 +1,7 @@
 --Script Replica tablas FE HANA
 
 ---------------------------------------
---Creación de la tabla @OK1_PMT_XML_LIN
+--Creaciï¿½n de la tabla @OK1_PMT_XML_LIN
 CREATE TABLE "@OK1_PMT_XML_LIN" (
 	"Code" NVARCHAR(50) NOT NULL ,
 	 "LineId" INTEGER  NOT NULL ,
@@ -30,7 +30,7 @@ CREATE TABLE "@OK1_PMT_XML_LIN" (
 ---------------------------------------
 
 ---------------------------------------
---Creación de la tabla @@OK1_PMT_XML_LIN1
+--Creaciï¿½n de la tabla @@OK1_PMT_XML_LIN1
 CREATE TABLE "@OK1_PMT_XML_LIN1" (
 	"Code" NVARCHAR(50) NOT NULL ,
 	 "LineId" INTEGER NOT NULL ,
@@ -60,7 +60,7 @@ CREATE TABLE "@OK1_PMT_XML_LIN1" (
 ---------------------------------------
 
 ---------------------------------------
---Creación de la tabla @OK1_PMT_XML_HEAD
+--Creaciï¿½n de la tabla @OK1_PMT_XML_HEAD
 CREATE TABLE "@OK1_PMT_XML_HEAD" (
 	 "Code" NVARCHAR(50) NOT NULL ,
 	 "Name" NVARCHAR(100),
@@ -105,7 +105,7 @@ CREATE UNIQUE INDEX "KOK1_PMT_XML_HEAD_IK" ON "@OK1_PMT_XML_HEAD" ( "DocEntry" A
 ---------------------------------------
 
 ---------------------------------------
---Creación de la tabla @OK1_HIST_LIN2_FE
+--Creaciï¿½n de la tabla @OK1_HIST_LIN2_FE
 CREATE TABLE "@OK1_HIST_LIN2_FE" (
 	 "Code" NVARCHAR(50) NOT NULL ,
 	 "LineId" INTEGER  NOT NULL ,
@@ -148,7 +148,7 @@ CREATE TABLE "@OK1_HIST_LIN2_FE" (
 ---------------------------------------
 
 ---------------------------------------
---Creación de la tabla @OK1_HIST_LIN1_FE
+--Creaciï¿½n de la tabla @OK1_HIST_LIN1_FE
  CREATE TABLE "@OK1_HIST_LIN1_FE" (
 	"Code" NVARCHAR(50) NOT NULL ,
 	 "LineId" INTEGER NOT NULL ,
@@ -171,7 +171,7 @@ CREATE TABLE "@OK1_HIST_LIN2_FE" (
 ---------------------------------------
 
 ---------------------------------------
---Creación de la tabla @OK1_HIST_LIN3_FE
+--Creaciï¿½n de la tabla @OK1_HIST_LIN3_FE
 CREATE TABLE "@OK1_HIST_LIN3_FE" (
     "Code" NVARCHAR(50) NOT NULL ,
 	 "LineId" INTEGER NOT NULL ,
@@ -193,7 +193,7 @@ CREATE TABLE "@OK1_HIST_LIN3_FE" (
 ---------------------------------------
 
 ---------------------------------------
---Creación de la tabla @OK1_HIST_LIN4_FE
+--Creaciï¿½n de la tabla @OK1_HIST_LIN4_FE
 CREATE TABLE "@OK1_HIST_LIN4_FE" (
      "Code" NVARCHAR(50) NOT NULL ,
 	 "LineId" INTEGER NOT NULL ,
@@ -212,7 +212,7 @@ CREATE TABLE "@OK1_HIST_LIN4_FE" (
 ---------------------------------------
 
 ---------------------------------------
---Creación de la tabla @OK1_CFG_FE
+--Creaciï¿½n de la tabla @OK1_CFG_FE
 CREATE TABLE "@OK1_CFG_FE" (
 	"Code" NVARCHAR(50) NOT NULL ,
 	 "Name" NVARCHAR(100),

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEPOSView", "UdeCBuilder\FEPOSView.csproj", "{0BF7F5BE-8DC2-435D-95E2-9825C3410B26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. View", "1. View", "{4140164F-20C5-4EFF-A211-1DAC6AF5AF57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Controller", "2. Controller", "{809D6451-910B-4149-A08A-A4C4A6DF3DE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Model", "3. Model", "{DB24B4E7-7B96-4E28-837A-29E15C34A430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEPOSModel", "UdeCBuilderModel\FEPOSModel.csproj", "{29465B45-21FF-405A-879D-93308C0B51DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEPOSController", "UdeCBuilderController\FEPOSController.csproj", "{5B021171-9752-437C-ABB9-C9ECCBE7FDD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF7F5BE-8DC2-435D-95E2-9825C3410B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF7F5BE-8DC2-435D-95E2-9825C3410B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF7F5BE-8DC2-435D-95E2-9825C3410B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF7F5BE-8DC2-435D-95E2-9825C3410B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29465B45-21FF-405A-879D-93308C0B51DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29465B45-21FF-405A-879D-93308C0B51DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29465B45-21FF-405A-879D-93308C0B51DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29465B45-21FF-405A-879D-93308C0B51DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B021171-9752-437C-ABB9-C9ECCBE7FDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B021171-9752-437C-ABB9-C9ECCBE7FDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B021171-9752-437C-ABB9-C9ECCBE7FDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B021171-9752-437C-ABB9-C9ECCBE7FDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BF7F5BE-8DC2-435D-95E2-9825C3410B26} = {4140164F-20C5-4EFF-A211-1DAC6AF5AF57}
+		{29465B45-21FF-405A-879D-93308C0B51DE} = {DB24B4E7-7B96-4E28-837A-29E15C34A430}
+		{5B021171-9752-437C-ABB9-C9ECCBE7FDD2} = {809D6451-910B-4149-A08A-A4C4A6DF3DE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F32A866C-6E59-4E08-896E-BD6F9D7D7F40}
+	EndGlobalSection
+EndGlobal
