@@ -3,7 +3,7 @@
 ---------------------------------------
 --Creaci�n de la tabla @OK1_PMT_XML_LIN
 CREATE TABLE "@OK1_PMT_XML_LIN" (
-	"Code" NVARCHAR(50) NOT NULL ,
+	"Code" NVARCHAR(50) NOT NULL , 
 	 "LineId" INTEGER  NOT NULL ,
 	 "Object" NVARCHAR(20),
 	 "LogInst" INTEGER ,
